@@ -1,0 +1,17 @@
+<style>
+		h1 {text-align: center;}
+		h3 {text-align: center;}
+		p {text-align: center;}
+		div {text-align: center;}
+		img {text-align: center;}
+	</style>
+
+<% if (!user) { %>
+	</br></br></br></br></br>
+	<h1>Welcome Simple User! </br></br>Please <a href="/login">log-in</a>!</p>
+<% } else { %>
+	</br></br></br></br></br></br>
+	<h3>Hello, <%= user.username %>! </br></br>
+	You are succesfully authenticated...</br></br></br>
+	By clicking <a href="/profile">here</a> you can retrieve the response to Console Log.</h3>
+<% } %>

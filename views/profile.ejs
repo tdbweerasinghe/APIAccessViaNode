@@ -1,0 +1,16 @@
+<style>
+		h1 {text-align: center;}
+		p {text-align: center;}
+		div {text-align: center;}
+		img {text-align: center;}
+</style>
+
+<p>
+ID: <%= user.id %><br/>
+Username: <%= user.username %><br/>
+Name: <%= user.displayName %><br/>
+<% if (user.emails) { %>
+Email: <%= user.emails[0].value %><br/>
+<% } %>
+</p>
+<a href="/logout">Log out</a>
