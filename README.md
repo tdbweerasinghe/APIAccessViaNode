@@ -9,12 +9,10 @@ Use this example as a starting point for your own web applications.
 
 ## Instructions
 
-To install this example on your computer, clone the repository and install
+To install this example on your computer, clone the repository and install all needed
 dependencies.
 
-```bash
-$ git clone git@github.com:passport/express-4.x-local-example.git
-$ cd express-4.x-local-example
+```
 $ npm install
 ```
 
